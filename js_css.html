@@ -1,0 +1,223 @@
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"> </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode</title>
+    <style>
+        body {
+            padding: 2% 3% 10% 3%;
+        }
+
+        h2 {
+            color: #03aa96;
+            margin-top: 30px;
+        }
+
+        h2 {
+            padding-top: 2%;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .gambar {
+            text-align: center;
+            padding-top: 2%;
+        }
+
+        .dark {
+            background-color: #222;
+            color: #e6e6e6;
+        }
+
+        .theme-switch-wrapper {
+            display: flex;
+            align-items: center;
+            float: right;
+        }
+
+        .theme-switch {
+            display: inline-block;
+            height: 34px;
+            position: relative;
+            width: 60px;
+            text-align: right;
+        }
+
+        .theme-switch input {
+            display: none;
+        }
+
+        .slider {
+            background-color: #ccc;
+            bottom: 0;
+            cursor: pointer;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            transition: .4s;
+        }
+
+        .slider:before {
+            background-color: #fff;
+            bottom: 4px;
+            content: "";
+            height: 26px;
+            left: 4px;
+            position: absolute;
+            transition: .4s;
+            width: 26px;
+        }
+
+        input:checked+.slider {
+            background-color: #66bb6a;
+        }
+
+        input:checked+.slider:before {
+            transform: translateX(26px);
+        }
+
+        .slider.round {
+            border-radius: 34px;
+        }
+
+        .slider.round:before {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+        </label>
+        <label style="margin-left: 10px;">Switch Mode</label>
+    </div><br>
+    <div class="title">
+        <h2>Laboratories Information System ITS</h2>
+        <h1>DATA ACQUISITION AND INFORMATION DISEMINATION (ADDI)</h1>
+    </div>
+    <div class="gambar"><img src="https://www.its.ac.id/si/wp-content/uploads/sites/45/2018/10/logo-addi.jpg"
+            style="border-radius: 0px;" alt="showedimg" width="150" /></div>
+    <div class="container p-5 my-5 border">
+        <div class="title-with-line mb-4 instagram-feeds ">
+            <h3 style='text-align: left'>
+                <span style='font-family:AvenirNextLTPro-DemiCn; padding-left: 0px;'>About
+                    ADDI</span>
+            </h3>
+
+        </div>
+        <div class="wpb_text_column wpb_content_element ">
+            <div class="wpb_wrapper">
+                <p>Strategic issues that are the basis and research focus of the Data Acquisition and Information
+                    Dissemination Laboratory of the Information Systems Department, Faculty of Information Technology
+                    (FTIF)
+                    in 2015-2020 are the use of Information and Communication Technology for the development of
+                    transparency
+                    and enrichment of public information.</p>
+                <p>Data and Information are one of the vital elements in the aspect of community life. Therefore,
+                    mastery of
+                    technology for data and information is very important for the welfare and sovereignty of the nation.
+                    There are three important elements which are the main topics of research, including:</p>
+                <ul>
+                    <li>Data Acquisition</li>
+                </ul>
+                <p>Data yang saat ini ada di sekitar kita heterogen, baik dari sisi struktur (terstruktur dan tidak
+                    terstruktur), lokasi (terdistribusi atau terpusat), dari berbagai sumber/resource (contoh: data dari
+                    website, pesan teks/sms, dan lain-lain), serta volume (contoh: data masif atau big data).</p>
+                <ul>
+                    <li>Processing Paradigm</li>
+                </ul>
+                <p>Along with the development of sources and volume of data, there are also various technologies for
+                    processing these data. Each of these technologies is an implementation of a different paradigm of
+                    data,
+                    and is realized in innovation in pre-process and data processing techniques.</p>
+                <ul>
+                    <li>Diseminasi Informasi</li>
+                </ul>
+                <p>Process and data processing methods are more valuable information.</p>
+
+            </div>
+        </div>
+        <div class="title-with-line mb-4 instagram-feeds ">
+            <h3 style=' text-align: left'>
+                <span style='font-family:AvenirNextLTPro-DemiCn; padding-left: 0px;'>Research
+                    Topics</span>
+            </h3>
+
+        </div>
+
+        <div class="wpb_text_column wpb_content_element ">
+            <div class="wpb_wrapper">
+                <ul>
+                    <li>Data Acquisition<br />
+                        Data that is currently around us is heterogeneous, both in terms of structure (structured and
+                        unstructured), location (distributed or centralized), from various sources / resources (for
+                        example:
+                        data from websites, text / text messages, etc.) and volume (example: massive data or big data).
+                    </li>
+                    <li>Information Dissemination<br />
+                        Along with the development of sources and volume of data, there are also various technologies
+                        for
+                        processing these data. Each of these technologies is an implementation of a different paradigm
+                        of
+                        data, and is realized in innovation in pre-process and data processing techniques.</li>
+                    <li>Processing Paradigm<br />
+                        Process and data processing methods are more valuable information</li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="title-with-line mb-4 instagram-feeds ">
+            <h3 style='text-align: left'>
+                <span style='font-family:AvenirNextLTPro-DemiCn; padding-left: 0px;'>Head of
+                    Laboratory</span>
+            </h3>
+
+        </div>
+
+        <div class="wpb_text_column wpb_content_element ">
+            <div class="wpb_wrapper">
+                <p><a>Faizal
+                        Johan Atletiko, S. Kom, M.T </a></p>
+
+            </div>
+        </div>
+        <div class="title-with-line mb-4 instagram-feeds ">
+            <h3 style='text-align: left'>
+                <span style='font-family:AvenirNextLTPro-DemiCn; padding-left: 0px;'>Laboratory
+                    Member</span>
+            </h3>
+
+        </div>
+
+        <div class="wpb_text_column wpb_content_element ">
+            <div class="wpb_wrapper">
+                <ol>
+                    <li><a>Nur Aini Rakhmawati, S. Kom, M. Sc. Eng ,Ph.D </a></li>
+                    <li><a>Radityo Prasetianto Wibowo, S. Kom, M. Kom</a></li>
+                    <li><a>Renny Pradina Kusumawardhani, S. T, M. T </a></li>
+                    <li><a>Irmasari Hafidz, S. Kom, M. Sc</a></li>
+                </ol>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('#checkbox').click(function () {
+                var element = document.body;
+                element.classList.toggle("dark");
+            });
+        });
+    </script>
+</body>
+
+</html>
